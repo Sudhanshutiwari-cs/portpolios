@@ -100,3 +100,87 @@
     font-family: Poppins, Arial, sans-serif;
     padding-top: 100px;
 }
+@media  screen and (max-width: 480px) and (max-height: 932px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .name {
+        width: 100%;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .links {
+        width: 100%;
+        font-size: 16px;
+        justify-content: space-around;
+        margin-bottom: 10px;
+    }
+
+    .page {
+        height: auto;
+        padding: 10px;
+    }
+
+    .resume1, .education {
+        width: 90%;
+        margin-left: 5%;
+        text-align: center;
+    }
+
+    .sresume {
+        font-size: 36px;
+    }
+
+    .bresume {
+        font-size: 12vw;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .presume {
+        font-size: 14px;
+        top: auto;
+        left: auto;
+        width: 90%;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .exp1 {
+        font-size: 32px;
+    }
+
+    .edu {
+        flex-direction: column;
+        height: auto;
+        padding-top: 20px;
+    }
+
+    .clg, .sch {
+        width: 90%;
+        margin: 10px auto;
+        height: auto;
+    }
+
+    .date {
+        font-size: 20px;
+    }
+
+    .edu h2 {
+        font-size: 20px;
+    }
+
+    .position {
+        font-size: 12px;
+    }
+
+    .edu p {
+        font-size: 14px;
+    }
+}
