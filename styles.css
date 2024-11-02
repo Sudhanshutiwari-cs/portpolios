@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    z-index: 1;
 }
 a{
     color: white;
@@ -102,10 +103,9 @@ a{
 }
 .cn2 img{
     position: absolute;
-    top: 50;
-    left: 43vw;
-    height: 90vh ;
-    width: 45%
+    top: 23vh;
+    left: 55vw;
+    border-radius: 50%;
 
 }
 .btn{
@@ -123,6 +123,13 @@ a{
     background:rgb(247, 193, 30) ;
     font-weight: bolder;
     margin-top: 20px;
+}
+#particles-js{
+    height: 100%;
+    width: 100%;
+   position: absolute;
+   scroll-behavior: none;
+   z-index: 0;
 }
 @media screen and (max-width: 480px) and (max-height:1000px){
     .header {
@@ -173,7 +180,7 @@ a{
     }
 
     .worksbtn {
-        width: 80%;
+        width: 40%;
         height: auto;
         padding: 10px;
         margin: 10px auto;
@@ -183,11 +190,97 @@ a{
     .cn2 img {
         position: relative;
         top: auto;
-        left: auto;
-        width: 100%;
+        left: 40px;
+        width: 80%;
         height: 340px;
     }
     .hello{
         text-align: center;
     }
+    .linkedin {
+        width: 40%;
+        height: auto;
+        padding: 10px;
+        margin: 10px auto;
+        display: block;
+    }
+}
+
+/* Responsive styles for iPhone 14 */
+@media screen and (max-width: 430px) and (max-height: 932px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .name {
+        width: 100%;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .links {
+        width: 100%;
+        font-size: 16px;
+        justify-content: space-around;
+        margin-bottom: 10px;
+    }
+
+    .page1 {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .cn1, .cn2 {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .firstn, .lastn {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .profession {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .whatyouare {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .worksbtn {
+        width: 40%;
+        height: auto;
+        padding: 10px;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .cn2 img {
+        position: relative;
+        top: auto;
+        left: 35px;
+        width: 80%;
+        height: 340px;
+    }
+
+    .hello {
+        text-align: center;
+    }
+
+    .linkedin {
+        width: 40%;
+        height: auto;
+        padding: 10px;
+        margin: 10px auto;
+        display: block;
+    }
+    
 }

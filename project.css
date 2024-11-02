@@ -92,6 +92,7 @@ a{
         height: 4px;
         background-image: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(244, 244, 125) 20%, rgb(238, 238, 36) 50%, rgb(255, 189, 57) 100%);
         opacity: 0.5;
+        margin-top: 10px;
 }
 .edu{
     height: 45vh;
